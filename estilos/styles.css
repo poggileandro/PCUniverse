@@ -26,8 +26,9 @@
     border-radius: 10px;
     background-color: #D4AF37;
 }
+
 .item:hover,.boton:hover{
-    background-color: aqua;
+    background-color:#82FF74;
 }
 /*************index*****************/
 .hero{
@@ -117,6 +118,18 @@
     text-decoration: none;
     color: black;
    }
+/*************contacto*******************/
+ .main-contacto{
+    height: 90vh;
+    background-image: url("../imagenes/componentes.jpg");
+ }
+ .titulo-contacto{
+    color: white;
+ }
+ .fondo{
+    background-color: rgba(0, 0, 0, 0.427);
+ }
+ 
 
     @media screen and (max-width: 1400px){
 
