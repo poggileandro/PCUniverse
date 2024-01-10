@@ -155,7 +155,6 @@
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
-    
   }
   
   .edit-carrucel {
@@ -207,7 +206,13 @@
         .hero{
             height: 140vh;
         }
-        
 
     }
+    @media screen and (max-width: 700px){
+        .tarjetas{
+            flex-direction: column;
+        }
+
+    }
+
   
