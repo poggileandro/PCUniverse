@@ -129,7 +129,52 @@
  .fondo{
     background-color: rgba(0, 0, 0, 0.427);
  }
+ /*************quienessomos*******************/
+.section1{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../imagenes/quienesjpg.jpg");
+    background-size: cover;
+    background-position: top;
+}
+.titulo-quienes{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.988);
+}
+.texto-quienes{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 50%;
+
+}
+.tarjetas {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+  }
+  
+  .edit-carrucel {
+    flex: 1;
+    margin-right: 1rem;
+    margin-left: 1rem;  
+    border-style: solid;
+    border-color: #5386E4;  
+  }
+  .carousel img {
+    object-fit: cover; /* Ajusta las imágenes para cubrir todo el contenedor */
+    height: 100%; /* Hace que la altura de la imagen sea el 100% del contenedor */
+  }
+  .nombre, .experiencia{
+    background-color: rgba(0, 0, 0, 0.401);
+  }
+
  
+/*************meidaquery*******************/
 
     @media screen and (max-width: 1400px){
 
