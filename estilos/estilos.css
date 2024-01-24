@@ -36,7 +36,7 @@
   width: 100%;
   height: 1px; /* Grosor de la línea */
   background-color: #D4AF37; /* Color de la línea */
-  top: 10px; /* Posiciona la línea sobre el texto */
+  top: 10%; /* Posiciona la línea sobre el texto */
   left: 0;
   transform: scaleX(0); /* Inicialmente, la línea tiene una escala cero en el eje X */
   transform-origin: top left;
@@ -149,7 +149,7 @@
   background-color: rgba(0, 0, 0, 0.671);
   border-radius: 10px;
   padding: 1rem;
-  transition: 1s;
+  transition: 0.25s;
 }
 
 /**********************************SERVICIOS****************************************/
