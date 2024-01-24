@@ -16,6 +16,10 @@
     transform: scale(1);
   }
 }
+.navbar-edit .nav-edit .item:hover {
+  background-color: crimson;
+}
+
 .texto:hover .link {
   transform: scale(1.3);
   border-color: #D4AF37;
@@ -56,6 +60,7 @@
 .navbar-edit .nav-edit {
   gap: 3px;
   justify-content: end;
+  transition: 1s;
 }
 .navbar-edit .nav-edit .item {
   border-style: solid;
