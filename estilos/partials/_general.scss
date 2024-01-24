@@ -16,14 +16,6 @@
         ;
         gap: 1rem;
 
-        .contenedor-imagen-texto:hover .imagen,
-        .contenedor-imagen-texto:hover .link,
-        .contenedor-imagen-texto:hover .texto {
-            border-color: #D4AF37;
-            color: #D4AF37;
-            background-color: black;
-        }
-
         .servicio { 
             grid-area: "servicio";
            
@@ -49,20 +41,22 @@
                 border-style: solid;
             }
             .texto {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                border-style: solid;
-                border-color: white;
-                border-radius: 10px;
-                padding: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
                 color: white;
-                background-color: rgba(0, 0, 0, 0.633);
-
+                position: absolute;
+                width: 100%;
+                
                 .link{
                     text-decoration: none;
                     color: white;
+                    font-weight: bold;
+                    background-color: rgba(0, 0, 0, 0.671);
+                    border-radius: 10px;
+                    padding: 1rem;
+                    transition: 1s;
                 }
             }
 
@@ -173,4 +167,3 @@
         }
     }
  }
- 

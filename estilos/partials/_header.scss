@@ -1,11 +1,27 @@
 .navbar-edit{
     background-color: #5386E4;
+  
     .logo{
         max-width: 100px;
         border-style: solid;
         border-radius: 10px;
         background-color: #D4AF37;
     }
+    
+    .slogan{
+    font-size: 2rem;
+    display: block;
+    font-family: sans-serif;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 20ch;
+    animation: escribiendo 2s steps(26) forwards, ocultar-borde 0.5s 2s forwards; 
+    overflow: hidden;
+    color: white;
+    font-family: 'Black Ops One',sans-serif;
+    }
+    
+    
     .nav-edit{
         gap:3px;
         justify-content: end;
@@ -16,10 +32,7 @@
             background-color: #D4AF37;
         }
 
-        .item:hover,.boton:hover{
-            background-color:#82FF74;
-        }
-
+        
     }
 
 

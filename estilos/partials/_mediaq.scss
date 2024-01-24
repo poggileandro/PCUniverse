@@ -13,7 +13,23 @@
     }
 
 }
+@media screen and (max-width: 1085px){
+
+    .navbar-edit .slogan{
+        font-size: 1rem;
+    }
+
+}
+@media screen and (max-width: 850px){
+
+    .navbar-edit .slogan{
+        font-size: .5rem;
+    }
+
+}
+
 @media screen and (max-width: 480px){
+
 
     .hero .Inicio{
         grid-template-columns: repeat(1, 1fr);
@@ -29,6 +45,15 @@
     }
     .hero{
         height: 140vh;
+    }
+    .navbar-edit .slogan{
+        font-size: 1rem;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .navbar-edit .slogan{
+        font-size: 1rem;
     }
 
 }
