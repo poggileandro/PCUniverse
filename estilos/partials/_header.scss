@@ -32,6 +32,12 @@
             border-style: solid;
             border-radius: 10px;
             background-color: #D4AF37;
+
+            .nav-link {
+              position: relative;
+              transition: 1s;
+              text-decoration: none;
+            }
         }
 
         
