@@ -1,0 +1,196 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-edit {
+  background-color: #5386E4;
+}
+.navbar-edit .logo {
+  max-width: 100px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #D4AF37;
+}
+.navbar-edit .nav-edit {
+  gap: 3px;
+  justify-content: end;
+}
+.navbar-edit .nav-edit .item {
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #D4AF37;
+}
+.navbar-edit .nav-edit .item:hover, .navbar-edit .nav-edit .boton:hover {
+  background-color: #82FF74;
+}
+
+/*******************************INDEX***********************************************/
+.hero {
+  height: 90vh;
+  background-color: beige;
+  display: grid;
+  place-items: center;
+}
+.hero .Inicio {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas: "servicio producto quienes-somos contacto";
+  gap: 1rem;
+}
+.hero .Inicio .contenedor-imagen-texto:hover .imagen,
+.hero .Inicio .contenedor-imagen-texto:hover .link,
+.hero .Inicio .contenedor-imagen-texto:hover .texto {
+  border-color: #D4AF37;
+  color: #D4AF37;
+  background-color: black;
+}
+.hero .Inicio .servicio {
+  grid-area: "servicio";
+}
+.hero .Inicio .producto {
+  grid-area: "producto";
+}
+.hero .Inicio .quienes-somos {
+  grid-area: "quienes-somos";
+}
+.hero .Inicio .contacto {
+  grid-area: "contacto";
+}
+.hero .Inicio .contenedor-imagen-texto {
+  position: relative;
+  text-align: center;
+  border-radius: 11px;
+}
+.hero .Inicio .contenedor-imagen-texto .imagen {
+  width: 100%;
+  height: 70vh;
+  border-radius: 10px;
+  border-style: solid;
+}
+.hero .Inicio .contenedor-imagen-texto .texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.633);
+}
+.hero .Inicio .contenedor-imagen-texto .texto .link {
+  text-decoration: none;
+  color: white;
+}
+
+/**********************************SERVICIOS****************************************/
+.edit-main {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.edit-main .edit-contenedor .edit-fila .edit-card {
+  background-color: #5386E4;
+  margin-top: 1rem;
+}
+.edit-main .edit-contenedor .edit-fila .edit-card .edit-card2 {
+  background-color: #5386E4;
+  margin-top: 1rem;
+}
+.edit-main .edit-contenedor .edit-fila .edit-card .edit-card2 .fila .columna-texto {
+  background-color: white;
+}
+.edit-main .edit-contenedor .edit-fila .edit-card .edit-card2 .fila .columna-texto .texto .edit-text a {
+  text-decoration: none;
+  color: black;
+}
+.edit-main .edit-contenedor .edit-fila .edit-card .edit-card2 .fila .columna-imagen .imagen2 {
+  max-width: 100%;
+  height: 100%;
+}
+
+/*********************************QUIENESSOMOS**************************************/
+.section1 {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../imagenes/quienesjpg.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.section1 .titulo-quienes {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.988);
+}
+.section1 .texto-quienes {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.582);
+  width: 50%;
+}
+
+.tarjetas {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.tarjetas .edit-carrucel {
+  flex: 1;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-style: solid;
+  border-color: #5386E4;
+}
+.tarjetas .edit-carrucel .carrucel img {
+  -o-object-fit: cover;
+     object-fit: cover; /* Ajusta las imágenes para cubrir todo el contenedor */
+  height: 100%; /* Hace que la altura de la imagen sea el 100% del contenedor */
+}
+
+/*********************************CONTACTO*****************************************/
+.main-contacto {
+  height: 90vh;
+  background-image: url("../imagenes/componentes.jpg");
+}
+.main-contacto .contenedor .fila .fondo {
+  background-color: rgba(0, 0, 0, 0.427);
+}
+.main-contacto .contenedor .fila .fondo .fondo2 .formulario .titulo-contacto {
+  color: white;
+}
+
+@media screen and (max-width: 1400px) {
+  .hero .Inicio {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "servicio producto" "quienes-somos contacto";
+  }
+  .hero .Inicio .contenedor-imagen-texto .imagen {
+    height: 35vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero .Inicio {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "servicio " "producto" "quienes-somos" "contacto";
+  }
+  .hero .Inicio .contenedor-imagen-texto .imagen {
+    height: 30vh;
+  }
+  .hero {
+    height: 140vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  .tarjetas {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=estilos.css.map */

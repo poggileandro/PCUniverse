@@ -1,0 +1,26 @@
+.navbar-edit{
+    background-color: #5386E4;
+    .logo{
+        max-width: 100px;
+        border-style: solid;
+        border-radius: 10px;
+        background-color: #D4AF37;
+    }
+    .nav-edit{
+        gap:3px;
+        justify-content: end;
+
+        .item{
+            border-style: solid;
+            border-radius: 10px;
+            background-color: #D4AF37;
+        }
+
+        .item:hover,.boton:hover{
+            background-color:#82FF74;
+        }
+
+    }
+
+
+}
