@@ -238,6 +238,19 @@
 }
 
 /******************************PRODUCTOS*********************************************/
+.main-producto {
+  background-color: rgba(0, 0, 0, 0.752);
+}
+.main-producto .color-carta1 {
+  background-color: #D4AF37;
+}
+.main-producto .color-carta2 {
+  background-color: #0cec1b;
+}
+.main-producto .color-carta3 {
+  background-color: #c800da;
+}
+
 @media screen and (max-width: 1400px) {
   .hero .Inicio {
     grid-template-columns: repeat(2, 1fr);
