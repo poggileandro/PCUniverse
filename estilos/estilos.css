@@ -237,6 +237,7 @@
   color: white;
 }
 
+/******************************PRODUCTOS*********************************************/
 @media screen and (max-width: 1400px) {
   .hero .Inicio {
     grid-template-columns: repeat(2, 1fr);
