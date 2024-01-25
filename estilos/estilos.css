@@ -34,17 +34,17 @@
   content: "";
   position: absolute;
   width: 100%;
-  height: 1px; /* Grosor de la línea */
-  background-color: #D4AF37; /* Color de la línea */
-  top: 10%; /* Posiciona la línea sobre el texto */
+  height: 1px;
+  background-color: #D4AF37;
+  top: 10%;
   left: 0;
-  transform: scaleX(0); /* Inicialmente, la línea tiene una escala cero en el eje X */
+  transform: scaleX(0);
   transform-origin: top left;
-  transition: transform 0.3s ease; /* Agregar transición para un efecto suave */
+  transition: transform 0.3s ease;
 }
 
 .navbar-edit .nav-edit .item .nav-link:hover::before {
-  transform: scaleX(1); /* Al pasar el ratón, la línea se expande completamente */
+  transform: scaleX(1);
 }
 
 @keyframes escribiendo {
@@ -158,7 +158,8 @@
 }
 .edit-main .edit-contenedor .edit-fila .edit-card {
   background-color: #5386E4;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+  border-style: solid;
 }
 .edit-main .edit-contenedor .edit-fila .edit-card .edit-card2 {
   background-color: #5386E4;
@@ -170,6 +171,14 @@
 .edit-main .edit-contenedor .edit-fila .edit-card .edit-card2 .fila .columna-texto .texto .edit-text a {
   text-decoration: none;
   color: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #D4AF37;
+}
+.edit-main .edit-contenedor .edit-fila .edit-card .edit-card2 .fila .columna-texto .texto h5 {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #D4AF37;
 }
 .edit-main .edit-contenedor .edit-fila .edit-card .edit-card2 .fila .columna-imagen .imagen2 {
   max-width: 100%;
@@ -273,4 +282,7 @@
   .tarjetas {
     flex-direction: column;
   }
+}
+.footer-edit .copy-edit {
+  background-color: rgba(0, 0, 0, 0.05);
 }/*# sourceMappingURL=estilos.css.map */

@@ -69,10 +69,15 @@
 .edit-main{
     background-color: rgba(0, 0, 0, 0.05);
      .edit-contenedor{
+       
         .edit-fila{
+            
+            
             .edit-card{
                 background-color: #5386E4;
-                margin-top: 1rem;
+                margin-top: .5rem;
+                border-style: solid;
+                
              .edit-card2{
                 background-color: #5386E4;
                 margin-top: 1rem;
@@ -80,13 +85,23 @@
                 .fila{
                     .columna-texto{
                         background-color: white;
+                       
+
 
                         .texto{
                             .edit-text a{
                                 text-decoration: none;
                                 color: black;
+                                border-style: solid;
+                                border-radius: 10px;
+                                border-color:  #D4AF37 ;
                                 
                                }
+                            h5{
+                                border-style: solid;
+                                border-radius: 10px;
+                                border-color:  #D4AF37 ;
+                            }
                         }
                     }
                         .columna-imagen{
