@@ -165,7 +165,7 @@
   }
 /*********************************CONTACTO*****************************************/
 .main-contacto{
-    height: 90vh;
+    height: 100vh;
     background-image: url("../imagenes/componentes.jpg");
     .contenedor{
         .fila{
@@ -175,6 +175,29 @@
                     .formulario{
                         .titulo-contacto{
                             color: white;
+                         }
+                         .input-campo{
+                            position: relative;
+                            .caja-texto{
+                                background-color: transparent;
+                                color: #fff;
+                                outline: none;
+                            }
+                            .dato-texto{
+                                position: absolute;
+                                top:30%;
+                                left:10px;
+                                transform: translateY(-30%);
+                                color:#fff;
+                                pointer-events: none;
+                                transition: .3s;
+                            }
+                            input:focus ~ label,
+                            input:valid ~ label {
+                                top:-40%;
+                                left:10px;
+                                
+                            }
                          }
                     }
                 }

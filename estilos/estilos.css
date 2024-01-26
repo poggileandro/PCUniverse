@@ -227,7 +227,7 @@
 
 /*********************************CONTACTO*****************************************/
 .main-contacto {
-  height: 90vh;
+  height: 100vh;
   background-image: url("../imagenes/componentes.jpg");
 }
 .main-contacto .contenedor .fila .fondo {
@@ -235,6 +235,28 @@
 }
 .main-contacto .contenedor .fila .fondo .fondo2 .formulario .titulo-contacto {
   color: white;
+}
+.main-contacto .contenedor .fila .fondo .fondo2 .formulario .input-campo {
+  position: relative;
+}
+.main-contacto .contenedor .fila .fondo .fondo2 .formulario .input-campo .caja-texto {
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+}
+.main-contacto .contenedor .fila .fondo .fondo2 .formulario .input-campo .dato-texto {
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  transform: translateY(-30%);
+  color: #fff;
+  pointer-events: none;
+  transition: 0.3s;
+}
+.main-contacto .contenedor .fila .fondo .fondo2 .formulario .input-campo input:focus ~ label,
+.main-contacto .contenedor .fila .fondo .fondo2 .formulario .input-campo input:valid ~ label {
+  top: -40%;
+  left: 10px;
 }
 
 /******************************PRODUCTOS*********************************************/
