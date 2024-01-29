@@ -239,6 +239,14 @@
 .main-contacto .contenedor .fila .fondo .fondo2 .formulario .input-campo {
   position: relative;
 }
+.main-contacto .contenedor .fila .fondo .fondo2 .formulario .input-campo .caja-area {
+  background-color: transparent;
+  color: #fff;
+}
+.main-contacto .contenedor .fila .fondo .fondo2 .formulario .input-campo .textarea-titulo {
+  color: white;
+  padding-left: 10px;
+}
 .main-contacto .contenedor .fila .fondo .fondo2 .formulario .input-campo .caja-texto {
   background-color: transparent;
   color: #fff;

@@ -178,6 +178,15 @@
                          }
                          .input-campo{
                             position: relative;
+                            .caja-area{
+                                background-color: transparent;
+                                color: #fff;
+                            }
+                            .textarea-titulo{
+                                color: white;
+                                padding-left: 10px;
+                            }
+                           
                             .caja-texto{
                                 background-color: transparent;
                                 color: #fff;
