@@ -74,12 +74,12 @@
 
         .edit-fila{
             .edit-card{
-                background-color: #5386E4;
+                background-color: $color_principal;
                 margin-top: .5rem;
                 border-style: solid;
                 
              .edit-card2{
-                background-color: #5386E4;
+                background-color: $color_principal;
                 margin-top: 1rem;
 
                 .fila{
@@ -94,13 +94,13 @@
                                 color: black;
                                 border-style: solid;
                                 border-radius: 10px;
-                                border-color:  #D4AF37 ;
+                                border-color: $color_secundario ;
                                 
                                }
                             h5{
                                 border-style: solid;
                                 border-radius: 10px;
-                                border-color:  #D4AF37 ;
+                                border-color: $color_secundario;
                             }
                         }
                     }
@@ -153,7 +153,7 @@
         margin-right: 1rem;
         margin-left: 1rem;  
         border-style: solid;
-        border-color: #5386E4;
+        border-color: $color_principal;
 
         .carrucel img {
             object-fit: cover;
@@ -221,7 +221,7 @@
 .main-producto{
     background-color: rgba(0, 0, 0, 0.752);
     .color-carta1{
-        background-color: #D4AF37;
+        background-color: $color_secundario;
     }
     .color-carta2{
         background-color: #0cec1b;
