@@ -270,6 +270,7 @@
 
 /******************************PRODUCTOS*********************************************/
 .main-producto {
+  padding: 1rem;
   background-color: rgba(0, 0, 0, 0.752);
 }
 .main-producto .color-carta1 {
