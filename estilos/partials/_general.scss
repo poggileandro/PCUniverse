@@ -6,6 +6,7 @@
     place-items: center; 
 
     .Inicio {
+        padding: 1rem;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
@@ -133,14 +134,14 @@
     background-size: cover;
     background-position: top;
 
-    .titulo-quienes{
-        color: white;
-        background-color: rgba(0, 0, 0, 0.988);
+                .titulo-quienes{
+                color: white;
+                background-color: rgba(0, 0, 0, 0.988);
     }
-    .texto-quienes{
-        color: white;
-        background-color: rgba(0, 0, 0, 0.582);
-        width: 50%;
+                .texto-quienes{
+                 color: white;
+                background-color: rgba(0, 0, 0, 0.582);
+                  width: 50%;
     
     }
 }
@@ -156,8 +157,8 @@
         border-color: #5386E4;
 
         .carrucel img {
-            object-fit: cover; /* Ajusta las imágenes para cubrir todo el contenedor */
-            height: 100%; /* Hace que la altura de la imagen sea el 100% del contenedor */
+            object-fit: cover;
+            height: 100%;
           }
         
 
