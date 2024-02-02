@@ -71,8 +71,8 @@
   font-family: sans-serif;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 20ch;
-  animation: escribiendo 2s steps(26) forwards, ocultar-borde 0.5s 2s forwards;
+  width: 19.5ch;
+  animation: escribiendo 2s steps(22) forwards, ocultar-borde 0.5s 2s forwards;
   overflow: hidden;
   color: white;
   font-family: "Black Ops One", sans-serif;
@@ -334,6 +334,10 @@
 }
 .footer-edit {
   background-color: rgba(83, 134, 228, 0.3960784314);
+}
+.footer-edit .contenedor-footer .footer-section a {
+  color: black;
+  text-decoration: none;
 }
 .footer-edit .copy-edit {
   background-color: #5386E4;

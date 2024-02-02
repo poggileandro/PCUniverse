@@ -1,7 +1,16 @@
-.footer-edit{
-   
+.footer-edit {
     background-color: #5386e465;
-    .copy-edit{
+
+    .contenedor-footer {
+        .footer-section {
+            a {
+                color: black; 
+                text-decoration: none;
+            }
+        }
+    }
+
+    .copy-edit {
         background-color: $color_principal;
     }
 }

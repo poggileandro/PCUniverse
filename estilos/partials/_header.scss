@@ -1,47 +1,45 @@
-.navbar-edit{
-    background-color: $color_principal;
-  
-    .logo{
+    .navbar-edit{
+        background-color: $color_principal;
+
+        .logo{
         max-width: 100px;
         border-style: solid;
         border-radius: 10px;
         background-color: $color_secundario;
-    }
-    
-    .slogan{
-    font-size: 2rem;
-    display: block;
-    font-family: sans-serif;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 20ch;
-    animation: escribiendo 2s steps(26) forwards, ocultar-borde 0.5s 2s forwards; 
-    overflow: hidden;
-    color: white;
-    font-family: 'Black Ops One',sans-serif;
-    }
-    
-    
-    .nav-edit{
-        gap:3px;
-        justify-content: end;
-        transition: 1s;
-
-
-        .item{
-            border-style: solid;
-            border-radius: 10px;
-            background-color: $color_secundario;
-
-            .nav-link {
-              position: relative;
-              transition: 1s;
-              text-decoration: none;
-            }
         }
+    
+        .slogan{
+        font-size: 2rem;
+        display: block;
+        font-family: sans-serif;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 19.5ch;
+        animation: escribiendo 2s steps(22) forwards, ocultar-borde 0.5s 2s forwards; 
+        overflow: hidden;
+        color: white;
+        font-family: 'Black Ops One',sans-serif;
+        }
+    
+        .nav-edit{
+            gap:3px;
+            justify-content: end;
+            transition: 1s;
+
+            .item{
+                border-style: solid;
+                border-radius: 10px;
+                background-color: $color_secundario;
+
+                .nav-link {
+                    position: relative;
+                    transition: 1s;
+                    text-decoration: none;
+                }
+            }
 
         
+        }
+
+
     }
-
-
-}
