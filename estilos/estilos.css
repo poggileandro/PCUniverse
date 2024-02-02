@@ -225,6 +225,9 @@
      object-fit: cover;
   height: 100%;
 }
+.tarjetas .edit-carrucel .contenedor-nomexp .nombre, .tarjetas .edit-carrucel .contenedor-nomexp .experiencia {
+  background-color: rgba(0, 0, 0, 0.415);
+}
 
 /*********************************CONTACTO*****************************************/
 .main-contacto {

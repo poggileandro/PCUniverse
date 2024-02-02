@@ -160,9 +160,18 @@
             height: 100%;
           }
         
+            .contenedor-nomexp{
+                .nombre, .experiencia{
+                    background-color: rgba(0, 0, 0, 0.415);
+                }
+               
+             }
+         
+            
+          }
 
       }
-  }
+  
 /*********************************CONTACTO*****************************************/
 .main-contacto{
     height: 100vh;
